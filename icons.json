@@ -1,0 +1,317 @@
+{
+  "name": "nsm-os-icons",
+  "version": "1.0.0",
+  "grid": 24,
+  "strokeWidth": 1.75,
+  "accentVariable": "--nsm-accent",
+  "accentFallback": "#6d8c40",
+  "hostClass": "nsm-icon-host",
+  "iconClass": "nsm-icon",
+  "icons": [
+    {
+      "name": "nsm-home",
+      "label": "Home",
+      "meaning": "The start page.",
+      "idea": "A little house. The door opens and a moss light turns on inside.",
+      "files": {
+        "static": "svg/nsm-home.svg",
+        "snippet": "snippets/nsm-home.html"
+      },
+      "animatedParts": [
+        ".nsm-home-door",
+        ".nsm-home-glow"
+      ],
+      "motion": "The door swings open on hover and closes when the hover ends.",
+      "durationMs": 480
+    },
+    {
+      "name": "nsm-dashboard",
+      "label": "Dashboard",
+      "meaning": "Channel stats.",
+      "idea": "Three round bars and a moss dot on the tallest.",
+      "files": {
+        "static": "svg/nsm-dashboard.svg",
+        "snippet": "snippets/nsm-dashboard.html"
+      },
+      "animatedParts": [
+        ".nsm-dashboard-bar1",
+        ".nsm-dashboard-bar2",
+        ".nsm-dashboard-bar3",
+        ".nsm-dashboard-dot"
+      ],
+      "motion": "The bars drop and regrow one after another. The dot pops last.",
+      "durationMs": 700
+    },
+    {
+      "name": "nsm-packaging",
+      "label": "Packaging",
+      "meaning": "The Ideation boards where titles and thumbnails are packaged.",
+      "idea": "A friendly box. The lid lifts and a moss spark rises out.",
+      "files": {
+        "static": "svg/nsm-packaging.svg",
+        "snippet": "snippets/nsm-packaging.html"
+      },
+      "animatedParts": [
+        ".nsm-packaging-lid",
+        ".nsm-packaging-spark"
+      ],
+      "motion": "The lid lifts and the spark rises on hover. Both settle back when the hover ends.",
+      "durationMs": 520
+    },
+    {
+      "name": "nsm-production",
+      "label": "Production",
+      "meaning": "The board where videos are filmed and edited.",
+      "idea": "A clapperboard with a moss play mark.",
+      "files": {
+        "static": "svg/nsm-production.svg",
+        "snippet": "snippets/nsm-production.html"
+      },
+      "animatedParts": [
+        ".nsm-production-stick",
+        ".nsm-production-play"
+      ],
+      "motion": "The clapper claps twice. The play mark ticks on the second clap.",
+      "durationMs": 640
+    },
+    {
+      "name": "nsm-keystone",
+      "label": "Keystone",
+      "meaning": "Short-form ideas (the main Instagram account).",
+      "idea": "A stone arch. The top stone is moss, the keystone that holds the arch.",
+      "files": {
+        "static": "svg/nsm-keystone.svg",
+        "snippet": "snippets/nsm-keystone.html"
+      },
+      "animatedParts": [
+        ".nsm-keystone-stone"
+      ],
+      "motion": "The keystone lifts, drops with a small thud and settles.",
+      "durationMs": 600
+    },
+    {
+      "name": "nsm-inspiration",
+      "label": "Inspiration",
+      "meaning": "The short-form inspiration library.",
+      "idea": "A round-cornered star with a moss spark beside it.",
+      "files": {
+        "static": "svg/nsm-inspiration.svg",
+        "snippet": "snippets/nsm-inspiration.html"
+      },
+      "animatedParts": [
+        ".nsm-inspiration-star",
+        ".nsm-inspiration-spark"
+      ],
+      "motion": "The star turns one point and swells. The spark twinkles.",
+      "durationMs": 640
+    },
+    {
+      "name": "nsm-network",
+      "label": "Network",
+      "meaning": "The clipping network of accounts.",
+      "idea": "A moss hub with three linked account nodes.",
+      "files": {
+        "static": "svg/nsm-network.svg",
+        "snippet": "snippets/nsm-network.html"
+      },
+      "animatedParts": [
+        ".nsm-network-hub",
+        ".nsm-network-sat1",
+        ".nsm-network-sat2",
+        ".nsm-network-sat3"
+      ],
+      "motion": "The nodes pulse one after another and the hub swells.",
+      "durationMs": 660
+    },
+    {
+      "name": "nsm-improvements",
+      "label": "Improvements",
+      "meaning": "Feedback and rule changes for the pipeline steps.",
+      "idea": "Three sliders. One knob is moss.",
+      "files": {
+        "static": "svg/nsm-improvements.svg",
+        "snippet": "snippets/nsm-improvements.html"
+      },
+      "animatedParts": [
+        ".nsm-improvements-k1",
+        ".nsm-improvements-k2",
+        ".nsm-improvements-k3"
+      ],
+      "motion": "The knobs slide to new places on hover and slide back when the hover ends.",
+      "durationMs": 560
+    },
+    {
+      "name": "nsm-tracking",
+      "label": "Tracking",
+      "meaning": "Tracked links and their analytics.",
+      "idea": "Two linked chain rings. One ring is moss.",
+      "files": {
+        "static": "svg/nsm-tracking.svg",
+        "snippet": "snippets/nsm-tracking.html"
+      },
+      "animatedParts": [
+        ".nsm-tracking-ring-a",
+        ".nsm-tracking-ring-b"
+      ],
+      "motion": "The rings pull apart and snap back together.",
+      "durationMs": 560
+    },
+    {
+      "name": "nsm-requests",
+      "label": "Requests",
+      "meaning": "Requests to the team that are waiting.",
+      "idea": "A speech bubble with a moss plus.",
+      "files": {
+        "static": "svg/nsm-requests.svg",
+        "snippet": "snippets/nsm-requests.html"
+      },
+      "animatedParts": [
+        ".nsm-requests-plus"
+      ],
+      "motion": "The plus turns a quarter and swells.",
+      "durationMs": 600
+    },
+    {
+      "name": "nsm-prints",
+      "label": "Prints",
+      "meaning": "The 3D print queue.",
+      "idea": "A small cube, the thing being printed. The inner edges are moss.",
+      "files": {
+        "static": "svg/nsm-prints.svg",
+        "snippet": "snippets/nsm-prints.html"
+      },
+      "animatedParts": [
+        ".nsm-prints-inner"
+      ],
+      "motion": "The inner edges draw in again, like a part being built.",
+      "durationMs": 640
+    },
+    {
+      "name": "nsm-updates",
+      "label": "Updates",
+      "meaning": "What changed in the app, with an unread count.",
+      "idea": "A bell with a moss clapper.",
+      "files": {
+        "static": "svg/nsm-updates.svg",
+        "snippet": "snippets/nsm-updates.html"
+      },
+      "animatedParts": [
+        ".nsm-updates-bell",
+        ".nsm-updates-clap"
+      ],
+      "motion": "The bell rings and the swing dies down.",
+      "durationMs": 700
+    },
+    {
+      "name": "nsm-settings",
+      "label": "Settings",
+      "meaning": "The settings page (the gear beside the account).",
+      "idea": "A gear with a moss hub ring.",
+      "files": {
+        "static": "svg/nsm-settings.svg",
+        "snippet": "snippets/nsm-settings.html"
+      },
+      "animatedParts": [
+        ".nsm-settings-gear"
+      ],
+      "motion": "The gear turns one tooth. It looks the same at the end.",
+      "durationMs": 600
+    },
+    {
+      "name": "nsm-collapse",
+      "label": "Collapse sidebar",
+      "meaning": "The handle that collapses or expands the sidebar. Set data-flip to point it the other way.",
+      "idea": "A panel edge with an arrow. The edge is moss.",
+      "files": {
+        "static": "svg/nsm-collapse.svg",
+        "snippet": "snippets/nsm-collapse.html"
+      },
+      "animatedParts": [
+        ".nsm-collapse-chev"
+      ],
+      "motion": "The arrow nudges toward the edge and settles.",
+      "durationMs": 520
+    },
+    {
+      "name": "nsm-sun",
+      "label": "Light theme",
+      "meaning": "Switch to the light theme.",
+      "idea": "A sun with eight rays and a moss core.",
+      "files": {
+        "static": "svg/nsm-sun.svg",
+        "snippet": "snippets/nsm-sun.html"
+      },
+      "animatedParts": [
+        ".nsm-sun-rays",
+        ".nsm-sun-core"
+      ],
+      "motion": "The rays turn one step and the core swells.",
+      "durationMs": 640
+    },
+    {
+      "name": "nsm-moon",
+      "label": "Dark theme",
+      "meaning": "Switch to the dark theme.",
+      "idea": "A crescent moon with two moss stars.",
+      "files": {
+        "static": "svg/nsm-moon.svg",
+        "snippet": "snippets/nsm-moon.html"
+      },
+      "animatedParts": [
+        ".nsm-moon-crescent",
+        ".nsm-moon-star1",
+        ".nsm-moon-star2"
+      ],
+      "motion": "The moon tips back and returns. The stars twinkle.",
+      "durationMs": 640
+    },
+    {
+      "name": "nsm-stages",
+      "label": "Stages",
+      "meaning": "The phone tab for the stage boards.",
+      "idea": "A board with three columns. A small moss card sits in the first.",
+      "files": {
+        "static": "svg/nsm-stages.svg",
+        "snippet": "snippets/nsm-stages.html"
+      },
+      "animatedParts": [
+        ".nsm-stages-card"
+      ],
+      "motion": "The card hops into the second column and hops back.",
+      "durationMs": 700
+    },
+    {
+      "name": "nsm-more",
+      "label": "More",
+      "meaning": "The phone tab that opens the rest of the menu.",
+      "idea": "Three dots. The middle one is moss.",
+      "files": {
+        "static": "svg/nsm-more.svg",
+        "snippet": "snippets/nsm-more.html"
+      },
+      "animatedParts": [
+        ".nsm-more-d1",
+        ".nsm-more-d2",
+        ".nsm-more-d3"
+      ],
+      "motion": "The dots hop in a wave.",
+      "durationMs": 700
+    },
+    {
+      "name": "nsm-macro",
+      "label": "Macro",
+      "meaning": "The whole-pipeline overview board.",
+      "idea": "Four cells. The top-right cell is moss.",
+      "files": {
+        "static": "svg/nsm-macro.svg",
+        "snippet": "snippets/nsm-macro.html"
+      },
+      "animatedParts": [
+        ".nsm-macro-tr",
+        ".nsm-macro-br"
+      ],
+      "motion": "The moss cell and the cell below it swap places on hover and swap back when the hover ends.",
+      "durationMs": 560
+    }
+  ]
+}
